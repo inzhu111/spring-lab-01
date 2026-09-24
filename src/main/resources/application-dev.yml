@@ -3,9 +3,7 @@ server:
 
 app:
   mail:
-    enabled: false
-    retry-count: 1
-
-logging:
-  level:
-    kz.iitu: DEBUG
+    retry-count: 5
+  ui:
+    theme: DARK
+    items-per-page: 20

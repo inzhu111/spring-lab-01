@@ -13,12 +13,14 @@ app:
     retry-count: 3
     timeout: 5s
     enabled: true
+  ui:
+    theme: LIGHT
+    items-per-page: 10
 
 logging:
   level:
     kz.iitu: INFO
 
-# Добавлено для Task 5 (Actuator)
 management:
   endpoints:
     web:
