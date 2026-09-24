@@ -17,3 +17,10 @@ app:
 logging:
   level:
     kz.iitu: INFO
+
+# Добавлено для Task 5 (Actuator)
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,env,configprops,conditions
